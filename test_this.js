@@ -1,4 +1,4 @@
-function LList() {
+﻿function LList() {
     this.head = new Node('头部');
     console.log("this.head.element",this.head.element);
     this.find = find;
@@ -16,7 +16,7 @@ function Node(element) {
 
 function find(){
     var ifo = this.head.element;
-    console.log("find方法中的ifo",ifo);
+    console.log("find方法中的ifo哈哈哈",ifo);
     return ifo;
 }
 
